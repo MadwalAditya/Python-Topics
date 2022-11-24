@@ -74,4 +74,3 @@ for number in numbers_tuple:
     if number == 3:
         break
 
-
