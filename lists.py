@@ -28,3 +28,23 @@ print(names.index('aditya'))
 
 numbers = [1,23,56,6,23,564,35,5,354,3]
 
+# deleting or removing some items 
+
+fruits = ['banana', 'orange', 'mango', 'lemon', 'kiwi', 'lime']
+
+del fruits[0]
+print(fruits)       # ['orange', 'mango', 'lemon', 'kiwi', 'lime']
+
+del fruits[1]
+print(fruits)       # ['orange', 'lemon', 'kiwi', 'lime']
+
+del fruits[1:3]     # this deletes items between given indexes, so it does not delete the item with index 3!
+print(fruits)       # ['orange', 'lime']
+
+del fruits          # whole fruits removed
+# print(fruits)       # This should give: NameError: name 'fruits' is not defined
+
+fruits = ['banana', 'orange', 'mango', 'lemon']
+fruits.clear()
+print(fruits)       # []
+
