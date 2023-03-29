@@ -90,3 +90,5 @@ def data_to_dict(name, section, *friends) :
 
 print(data_to_dict('aditya' , 'B' , 'priyanshu', 'anurakht', 'tushar', 'archit'))
 
+# print("hello world")
+
